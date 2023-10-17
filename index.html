@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik:wght@700&display=swap"rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Simple To-Do List</h1>
+
+        <div class="inputBox">
+            <input class="text2" type="text" id="input" placeholder="Task you want to plan...">
+            <button class="button1" type="submit" onclick="submit()">Add</button>
+        </div><br>
+
+        <div class="inputBox">
+            <input class="text" type="text" id="input2" placeholder="Description you want to add...">
+            <button class="button1" type="submit" onclick="submit()">Add</button>
+        </div>
+
+        <div class="uncompleted">
+            <h1>Uncompleted</h1>
+            <button class="button1" type="submit" onclick="deleteAll()">Delete All</button>
+        </div>
+
+        <ul class="list" id="list">
+        </ul>
+
+        <div class="completed">
+            <h1>Completed</h1>
+            <button class="button1" type="submit" onclick="deleteAll2()">Delete All</button>
+        </div>
+
+        <ul class="list2" id="list2">
+        </ul>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+h1 {
+    text-align: center;
+    font-family: Rubik;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+    margin-left: 6%;
+}
+
+.button1 {
+    padding: 10px 22px;
+    border-radius: 10px;
+    border: none;
+    color: #5BC0F8;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: none;
+    font-family: Karla;
+}
+
+.text {
+    border: none;
+    background-color: #a1d5f1;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    font-family: Karla;
+}
+
+.text2{
+    border: none;
+    background-color: #a1d5f1;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    font-family: Karla;
+}
+
+.uncompleted {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    margin-left: 8%;
+}
+
+.completed {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    margin-left: 8%;
+}
+
+.list {
+    display: grid;
+    justify-content: center;
+    font-family: Karla;
+    font-size: 20px;
+}
+
+.list li {
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    color: black;
+    border-radius: 20px;
+    width: 400px;
+    padding: 10px 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    border: 1.5px solid rgba(0, 0, 0, 0.15);
+}
+
+.list2 {
+    display: grid;
+    justify-content: center;
+    font-family: Karla;
+    font-size: 20px;
+}
+
+.list2 li {
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    color: black;
+    border-radius: 20px;
+    width: 400px;
+    padding: 10px 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    border: 1.5px solid rgba(0, 0, 0, 0.15);
+}
+
+.divos{
+    padding-right: 5px;
+}
